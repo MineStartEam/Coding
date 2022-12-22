@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+ <html lang="zh-cn">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>临时跳转画面</title>
+    <p>这里是暂时停用了，正在开发导航页面。</p>
+    <p>如果要访问我的博客，请点击<a href="https://blog.mste.xyz/" target="_blank" rel="nofollow noopener"><span>(Blog)</span></a></p>
+
+
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/daxuehua.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/love.js"></script>
+
+    <script type="text/javascript" src="js/m.js"></script>
+    <link rel="stylesheet" href="APlayer.min.css">
+    <div id="aplayer"></div>
+    <script src="hls.min.js"></script>
+    <script src="APlayer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@0.8.4/waifu.css">
+ </head>
+ <body>
+    <p>圣诞节特别篇,点击<a href="https://coding.mste.xyz/Christmas/" target="_blank" rel="nofollow noopener"><span>(圣诞专属)</span></a></p>
+
+ </body>
+ <footer>
+    <script type="text/javascript">
+
+        function runtime(){
+            // 初始时间，日/月/年 时:分:秒
+            X = new Date("10/12/2021 20:47:00");
+            Y = new Date();
+            T = (Y.getTime()-X.getTime());
+            M = 24*60*60*1000;
+            a = T/M;
+            A = Math.floor(a);
+            b = (a-A)*24;
+            B = Math.floor(b);
+            c = (b-B)*60;
+            C = Math.floor((b-B)*60);
+            D = Math.floor((c-C)*60);
+            //信息写入到DIV中
+            span.innerHTML = "本站运行了: "+A+"天"+B+"小时"+C+"分"+D+"秒"
+        }
+        setInterval(runtime, 1000);
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@0.8.4/waifu-tips.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@0.8.4/autoload.js"></script>
+
+    <div id="cc-myssl-id">
+        <img src="https://static.myssl.com/res/images/myssl-id3.png" onclick="pic()" alt="" style="max-height:50px;display:block;margin:0 auto">
+        <script type="text/javascript" scr="./js/time.js">
+            function pic()
+            {
+                window.open("https://myssl.com/seal/detail?domain=coding.mste.xyz", "_blank", "left=pixels,location=yes,width=460,height=869");
+                
+            }
+        </script>
+    </div>
+    <span id="span"></span>
+
+
+
+ </footer>
+ </html>
+
+
